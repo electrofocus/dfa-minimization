@@ -2,7 +2,7 @@ from graphviz import Digraph
 
 
 with open('input.txt') as file:
-    lines = list()
+    lines = []
     states = list(range(int(file.readline())))
     for line in file.readlines():
         lines.append([int(i) for i in line.split()])
@@ -30,9 +30,29 @@ for tail, head in enumerate(by_one):
 
 # initial.render('test-output/initial_graph.gv', view=True, format='png')
 
-classes = [
-    [(state, []) for state in states if state not in final_states],
-    final_states
-]
+marked_states = []
+for state in states:
+    if state in final_states:
+        marked_states.append((1, (None, None)))
+    else:
+        marked_states.append((0, (None, None)))
 
-print(classes)
+# for i, state in enumerate(marked_states):
+#     print(i, state)
+
+old_len_unique = len(set(marked_states))
+
+for i in range(10):
+    print([(state, cl[0]) for state, cl in enumerate(marked_states)])
+
+    for i, state in enumerate(marked_states):
+        marked_states[i] = (state[0], (marked_states[by_zero[i]][0], marked_states[by_one[i]][0]))
+
+    unique = list(set(marked_states))
+    for i, state in enumerate(marked_states):
+        marked_states[i] = (unique.index(state), (None, None))
+
+    if len(unique) == old_len_unique:
+        break
+
+    old_len_unique = len(unique)
