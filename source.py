@@ -11,8 +11,16 @@ with open('input.txt') as file:
 initial = Digraph()
 minimal = Digraph()
 
-for state in range(n_states):
-    initial.node(name=str(state), label=str(state))
+if '0' in final_states:
+    initial.node(name='0', label='0', shape='doublecircle', style='filled', fillcolor='grey')
+else:
+    initial.node(name='0', label='0', shape='doublecircle')
+
+for state in range(1, n_states):
+    if str(state) in final_states:
+        initial.node(name=str(state), label=str(state), shape='circle', style='filled', fillcolor='grey')
+    else:
+        initial.node(name=str(state), label=str(state), shape='circle')
 
 for tail, head in enumerate(by_zero):
     initial.edge(tail_name=str(tail), head_name=head, label='0')
