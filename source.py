@@ -42,8 +42,8 @@ for state in states:
 
 old_len_unique = len(set(marked_states))
 
-for i in range(10):
-    print([(state, cl[0]) for state, cl in enumerate(marked_states)])
+while True:
+    classes = [(state, cl[0]) for state, cl in enumerate(marked_states)]
 
     for i, state in enumerate(marked_states):
         marked_states[i] = (state[0], (marked_states[by_zero[i]][0], marked_states[by_one[i]][0]))
@@ -56,3 +56,6 @@ for i in range(10):
         break
 
     old_len_unique = len(unique)
+
+print(classes)
+
