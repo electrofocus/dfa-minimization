@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="860c61c3-df61-4f67-8210-23fe98bea9cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dfa_minimization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dfa_minimization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source.py" beforeDir="false" afterPath="$PROJECT_DIR$/source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/initial_graph.gv" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/initial_graph.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/initial_graph.gv.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/initial_graph.gv.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1btCbjjeQQ3FlZHhb2dkTKQyCA8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunManager">
+    <configuration name="source" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dfa-minimization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.source" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="860c61c3-df61-4f67-8210-23fe98bea9cd" name="Default Changelist" comment="" />
+      <created>1589442075562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589442075562</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add initial graph building">
+      <created>1589445428755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589445428756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add different nodes colors and shapes depending on type of state">
+      <created>1589446658636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589446658636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change char states to int states">
+      <created>1589448570425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589448570425</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add minimization cycle">
+      <created>1589452485996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589452485996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial graph building" />
+    <MESSAGE value="Add different nodes colors and shapes depending on type of state" />
+    <MESSAGE value="Change char states to int states" />
+    <MESSAGE value="Add minimization cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add minimization cycle" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="147" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1589452625173">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="598" y="147" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1589452625173" />
+    <state x="308" y="35" width="934" height="802" key="CommitChangelistDialog2" timestamp="1589452485511">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="308" y="35" width="934" height="802" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589452485511" />
+    <state width="1320" height="225" key="GridCell.Tab.0.bottom" timestamp="1589524050702">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589524050702" />
+    <state width="1320" height="225" key="GridCell.Tab.0.center" timestamp="1589524050702">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589524050702" />
+    <state width="1320" height="225" key="GridCell.Tab.0.left" timestamp="1589524050702">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589524050702" />
+    <state width="1320" height="225" key="GridCell.Tab.0.right" timestamp="1589524050702">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589524050702" />
+    <state width="1364" height="258" key="GridCell.Tab.1.bottom" timestamp="1589452639629">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="258" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589452639629" />
+    <state width="1364" height="258" key="GridCell.Tab.1.center" timestamp="1589452639629">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="258" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589452639629" />
+    <state width="1364" height="258" key="GridCell.Tab.1.left" timestamp="1589452639629">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="258" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589452639629" />
+    <state width="1364" height="258" key="GridCell.Tab.1.right" timestamp="1589452639629">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1364" height="258" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589452639629" />
+    <state x="277" y="77" key="SettingsEditor" timestamp="1589452628777">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589452628777" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1589452491602">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589452491602" />
+    <state x="511" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589492125192">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="511" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1589492125192" />
+  </component>
+</project>
